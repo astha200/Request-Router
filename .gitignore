@@ -1,0 +1,33 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# data
+*.db
+*.db-wal
+*.db-shm
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# node
+node_modules/
+dist/
+.DS_Store
+
+# build artifacts
+*.tsbuildinfo
+
+# submission archives
+submission/
+
+# demo recording + local helper artifacts (not part of the product)
+*.mov
+*.mp4
+Demo_video_*
+Router-Demo-Runbook.pptx
